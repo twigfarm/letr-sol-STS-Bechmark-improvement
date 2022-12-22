@@ -96,7 +96,7 @@
 
 <img width="1191" alt="image" src="https://user-images.githubusercontent.com/100064247/209103925-5fbecb1f-1980-4fb9-bf6e-8d5d81cfbd0c.png">
 
-#### 유효성검증 실험결과 
+### 유효성검증 실험결과 
 
 |**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5<br/>Pearson R**|**2.0-3.5<br/>ACC**|
 |---------|---|---|---|----|---|
@@ -120,7 +120,7 @@
 #### 모델 성능개선 - pseudo-label selection
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/100064247/209107009-acc1b33d-ed9f-4993-a24b-72fb3b7d404c.png">
 
-#### 모델 성능개선 실험결과 
+### 모델 성능개선 실험결과 
 |**Model** trained with|**Pearson R**|**F1 score**|**1.8-3.2 <br/>Pearson R**|**Data<br/>Augmentation**|**Num of<br/> Augmented data**|**Aug range**|
 |---------|---|---|---|----|---|---|
 |***without data augmentation***||||
