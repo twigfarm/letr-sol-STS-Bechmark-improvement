@@ -59,4 +59,15 @@
  
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/100064247/209096382-a8f1feb5-f2cb-451b-add5-749bf8fdb826.png">
 
+#### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
+* 모델선정 
+
+- cross-encding vs bi-encoding 
+
+|Model trained with|Pearson R|F1 score|MSE|
+|------|---|---|
+|Bi-encoder / KLUE-RoBERTa-base|
+|original klue-trainset|87.60|80.03|
+|new trainset|88.08|80.65|
+|테스트1|테스트2|테스트3|
