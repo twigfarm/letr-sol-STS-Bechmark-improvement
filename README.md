@@ -68,9 +68,15 @@
 |Model trained with|Pearson R|F1 score|MSE|
 |------|---|---|---|
 |Bi-encoder / KLUE-RoBERTa-base|||
-|original klue-trainset|87.60|80.03|
-|new trainset|88.08|80.65|
-|테스트1|테스트2|테스트3|
+|original klue-trainset|87.60|80.03|-|
+|new trainset|88.08|80.65|-|
+
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 
