@@ -73,6 +73,7 @@
 |***Cross-encoder* / *KLUE-RoBERTa-base***|||
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|**82.98**|**0.37**|
+*trained with 10random_seed and 3 epochs
 
 
 - BERT / ELECTRA / RoBERTa (cross-encoder)
