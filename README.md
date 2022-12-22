@@ -85,6 +85,6 @@
 [Table caption, works as a reference][section-mmd-tables-table1]
 
 | A | B | C |
-| <r2> 1 | <c2> 2 |
-| 가 | 나 |
+| <r2> 1 | <c2> 2 ||
+| 가 | 나 ||
 
