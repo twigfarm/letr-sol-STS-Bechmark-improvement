@@ -129,5 +129,6 @@
 |***with data augmentation***||||
 |best-model predicted label|91.61|83.57|43.59|+korsts-test|485|1.8-3.2|
 |ensembled label|91.98|83.24|46.44|+korsts-test|485|1.8-3.2|
-|best-model predicted label|91.57|83.24|46.44|+korsts-test<br/>& paraKAIST|851|1.8-3.2|
-|ensembled label|92.05|83.30|49.53|+korsts-test<br/>& paraKAIST|847|1.8-3.2|
+|best-model predicted label|91.57|**84.04**|46.60|+korsts-test<br/>& paraKAIST|851|1.8-3.2|
+|ensembled label|**92.05**|83.30|**49.53**|+korsts-test<br/>& paraKAIST|847|1.8-3.2|
+> 한가지 데이터에 대해서만 증강 / 수를 늘려 두가지 모두에 대해 증강한 경우 <br/> 두가지 모두 증강전보다 성능향상 <br/> 앙상블을 통해 불확실성이 높은 라벨을 제거한후 데이터증강을 적용한 경우가 더 높은 성능 
