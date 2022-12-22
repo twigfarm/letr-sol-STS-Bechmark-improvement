@@ -98,7 +98,7 @@
 
 #### 유효성검증 결과 
 
-|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5  Pearson R**|**2.0-3.5 ACC**|
+|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5<br/>Pearson R**|**2.0-3.5 ACC**|
 |---------|---|---|---|----|---|
 |***KLUE-BERT-base***|||
 |original klue-trainset|90.55|81.38|0.41|39.42|59.36|
