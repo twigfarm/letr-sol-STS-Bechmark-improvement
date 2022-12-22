@@ -66,7 +66,7 @@
 - cross-encding vs bi-encoding 
 
 |Model trained with|Pearson R|F1 score|MSE|
-|------|---|---|
+|------|---|---|---|
 |Bi-encoder / KLUE-RoBERTa-base|||
 |original klue-trainset|87.60|80.03|
 |new trainset|88.08|80.65|
