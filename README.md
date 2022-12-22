@@ -70,7 +70,7 @@
 |***Bi-encoder* / *KLUE-RoBERTa-base***|||
 |original klue-trainset|87.60|80.03|-|
 |new trainset|88.08|80.65|-|
-|*Cross-encoder* / *KLUE-RoBERTa-base*|||
+|***Cross-encoder* / *KLUE-RoBERTa-base***|||
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|**82.98**|**0.37**|
 
@@ -79,12 +79,12 @@
 
 |**Model** trained with|**Pearson R**|**F1 score**|**MSE**|
 |------|---|---|---|
-|*KLUE-BERT-base*|||
+|***KLUE-BERT-base***|||
 |original klue-trainset|88.32|81.09|0.44|
 |new trainset|89.62|80.30|0.41|
-|*KoELECTRA-base*|||
+|***KoELECTRA-base***|||
 |original klue-trainset|88.72|81.12|0.40|
 |new trainset|90.54|**83.12**|**0.37**|
-|*KLUE-RoBERTa-base*|||
+|***KLUE-RoBERTa-base***|||
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|82.98|**0.37**|
