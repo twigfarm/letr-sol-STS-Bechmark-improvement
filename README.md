@@ -92,13 +92,13 @@
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|82.98|**0.37**|
 
-#### 유효성검증 실험설계 
+#### 변경된 데이터의 유효성 검증 - 유효성검증 실험설계 
 
 <img width="1191" alt="image" src="https://user-images.githubusercontent.com/100064247/209103925-5fbecb1f-1980-4fb9-bf6e-8d5d81cfbd0c.png">
 
-#### 유효성검증 결과 
+#### 유효성검증 실험결과 
 
-|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5<br/>Pearson R**|**2.0-3.5 ACC**|
+|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5<br/>Pearson R**|**2.0-3.5<br/>ACC**|
 |---------|---|---|---|----|---|
 |***KLUE-BERT-base***|||
 |original klue-trainset|90.55|81.38|0.41|39.42|59.36|
@@ -106,3 +106,23 @@
 
 
 > 전체구간 성능상승 / 재라벨링 타겟구간이었던 2.0-3.5구간의 피어슨계수, acc 더 큰폭으로 상승 
+
+#### 모델 성능개선 - semi-supervised learning 
+
+<img width="1245" alt="image" src="https://user-images.githubusercontent.com/100064247/209106383-5998ba70-a001-4b3f-b3bc-2b9439070ce9.png">
+
+#### 모델 성능개선 - data augmentation
+<img width="1265" alt="image" src="https://user-images.githubusercontent.com/100064247/209106580-85894063-31de-43ca-82f0-705fd120b418.png">
+
+#### 모델 성능개선 - augmentation range selection
+<img width="1250" alt="image" src="https://user-images.githubusercontent.com/100064247/209106741-13d537de-ed67-4613-b02c-4e233d9892dc.png">
+
+#### 모델 성능개선 - pseudo-label selection
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/100064247/209107009-acc1b33d-ed9f-4993-a24b-72fb3b7d404c.png">
+
+#### 모델 성능개선 실험결과 
+|**Model** trained with|**Pearson R**|**F1 score**|**1.8-3.2 <br/>Pearson R**|**Data<br/>Augmentation**|**Num of<br/> Augmented data**|**Aug range**|
+|---------|---|---|---|----|---|---|
+|***without data augmentation***||||
+|original klue-trainset|90.55|81.38|39.45|x|x|x|
+|new trainset|91.14|82.65|41.75|x|x|x|
