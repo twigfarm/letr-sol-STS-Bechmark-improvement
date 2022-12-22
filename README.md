@@ -61,7 +61,7 @@
 
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
-<모델선정>.   
+#### <모델선정>   
 *all results are trained with 10random_seed and 3 epochs
 
 
@@ -91,3 +91,18 @@
 |***KLUE-RoBERTa-base***|||
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|82.98|**0.37**|
+
+#### 유효성검증 실험설계 
+
+<img width="1191" alt="image" src="https://user-images.githubusercontent.com/100064247/209103925-5fbecb1f-1980-4fb9-bf6e-8d5d81cfbd0c.png">
+
+#### 유효성검증 결과 
+
+|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5 Pearson R**|**2.0-3.5 ACC**|
+|------|---|---|---|------|-----|
+|***KLUE-BERT-base***|||
+|original klue-trainset|90.55|81.38|0.41|39.42|59.36|
+|new trainset|**91.14**|**82.98**|**0.37**|**43.73**|**62.68**|
+
+> 전체구간의 성능 상승
+> 재라벨링 타겟구간이었던 2.0-3.5구간의 피어슨계수, acc 더 큰폭으로 상승 
