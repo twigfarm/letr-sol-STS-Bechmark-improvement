@@ -67,14 +67,10 @@
 
 |Model trained with|Pearson R|F1 score|MSE|
 |------|---|---|
-|Bi-encoder / KLUE-RoBERTa-base|
+|Bi-encoder / KLUE-RoBERTa-base|||
 |original klue-trainset|87.60|80.03|
 |new trainset|88.08|80.65|
 |테스트1|테스트2|테스트3|
 
 
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+
