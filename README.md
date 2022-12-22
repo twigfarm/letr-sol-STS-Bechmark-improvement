@@ -72,13 +72,19 @@
 |new trainset|88.08|80.65|-|
 |*Cross-encoder* / *KLUE-RoBERTa-base*|||
 |original klue-trainset|90.55|81.38|0.41|
-|new trainset|91.14|82.98|0.37|
+|new trainset|**91.14**|**82.98**|**0.37**|
 
-| Cell1| Cell2 | Cell3 |
-|------|-------|-------|
-| merge right ||       |
-| merge|       |       |
-| below|^      |^      |
-| merge both  || value1|
-|^            || value2|
 
+- BERT / ELECTRA / RoBERTa (cross-encoder)
+
+|**Model** trained with|**Pearson R**|**F1 score**|**MSE**|
+|------|---|---|---|
+|*KLUE-BERT-base*|||
+|original klue-trainset|88.32|81.09|0.44|
+|new trainset|89.62|80.30|0.41|
+|*KoELECTRA-base*|||
+|original klue-trainset|88.72|81.12|0.40|
+|new trainset|90.54|**83.12**|**0.37**|
+|*KLUE-RoBERTa-base*|||
+|original klue-trainset|90.55|81.38|0.41|
+|new trainset|**91.14**|82.98|**0.37**|
