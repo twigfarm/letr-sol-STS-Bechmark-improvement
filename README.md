@@ -166,13 +166,15 @@
 ### reference
 
 - Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks(2020)
-- 2021년 유사 문장 생성 말뭉치 연구 분석 사업
-- 유사말뭉치 분석을 통한 유사도 인식에 관한 연구(2021)
 - KLUE: Korean Language Understanding Evaluation(2021)
 - KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding(2020)
+- SemEval2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation
 - A survey on semi-supervised learning(2020)
 - Learning with pseudo-ensembles(2014)
 - Pseudo-Labels Are All You Need(2022)
+- 2021년 유사 문장 생성 말뭉치 연구 분석 사업
+- 유사말뭉치 분석을 통한 유사도 인식에 관한 연구(2021)
+
 
 - https://www.datacamp.com/tutorial/active-learning
 - https://blog.est.ai/2020/11/ssl/
