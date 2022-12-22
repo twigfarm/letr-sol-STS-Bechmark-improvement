@@ -162,6 +162,7 @@
 - 해결하지 못한 워드 오버랩기반 예측경향 
 - 여전히 불균형한 훈련데이터 
 
+<br/>
 
 ### reference
 - Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks(2019)
