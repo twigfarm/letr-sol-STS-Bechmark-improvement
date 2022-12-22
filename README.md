@@ -67,7 +67,7 @@
 
 |**Model** trained with|**Pearson R**|**F1 score**|**MSE**|
 |------|---|---|---|
-|<c2> *Bi-encoder* / *KLUE-RoBERTa-base*|||
+|*Bi-encoder* / *KLUE-RoBERTa-base*|||
 |original klue-trainset|87.60|80.03|-|
 |new trainset|88.08|80.65|-|
 |*Cross-encoder* / *KLUE-RoBERTa-base*|||
@@ -76,15 +76,12 @@
 
 
 
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
 
-| First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
-[Table caption, works as a reference][section-mmd-tables-table1]
-
-| A | B | C |
-| <r2> 1 | <c2> 2 ||
-| 가 | 나 ||
-
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
