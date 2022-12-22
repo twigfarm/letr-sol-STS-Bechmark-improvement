@@ -62,6 +62,8 @@
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 <모델선정> 
+*all results are trained with 10random_seed and 3 epochs
+
 
 - cross-encding vs bi-encoding 
 
@@ -74,7 +76,6 @@
 |original klue-trainset|90.55|81.38|0.41|
 |new trainset|**91.14**|**82.98**|**0.37**|
 
-*trained with 10random_seed and 3 epochs
 
 
 - BERT / ELECTRA / RoBERTa (cross-encoder)
