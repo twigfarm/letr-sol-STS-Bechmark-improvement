@@ -161,3 +161,23 @@
 - 라벨링 가이드의 난이도 상승 
 - 해결하지 못한 워드 오버랩기반 예측경향 
 - 여전히 불균형한 훈련데이터 
+
+
+### reference
+
+- Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks(2020)
+- 2021년 유사 문장 생성 말뭉치 연구 분석 사업
+- 유사말뭉치 분석을 통한 유사도 인식에 관한 연구(2021)
+- KLUE: Korean Language Understanding Evaluation(2021)
+- KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding(2020)
+- A survey on semi-supervised learning(2020)
+- Learning with pseudo-ensembles(2014)
+- Pseudo-Labels Are All You Need(2022)
+
+- https://www.datacamp.com/tutorial/active-learning
+- https://blog.est.ai/2020/11/ssl/
+- https://github.com/UKPLab/sentence-transformers
+- https://github.com/Huffon/klue-transformers-tutorial/blob/master/sentence_transformers.ipynb
+- https://pseudo-lab.github.io/klue-baseline/docs/Semantic%20Textual%20Similarity.html
+- https://www.youtube.com/watch?v=WS1uVMGhlWQ
+- https://www.youtube.com/watch?v=aSx0jg9ZILo
