@@ -30,7 +30,7 @@
 - 주관적 판단이 개입되는 점수 척도
 - binary판단에 대한 Fasle비율이 높은 2.0-3.5구간 
 
-### 연구방향1: STS annotation 척도 재정립 및 재라벨링
+### 연구1: STS annotation 척도 재정립 및 재라벨링
 
 * 라벨 척도의 재정립 
 
@@ -39,5 +39,24 @@
 * 재라벨 대상 데이터 선정 
 
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/100064247/209095264-b3efbdbb-ae7f-4e59-aaeb-2ac699de377d.png">
+
+* trainset전체에 대해 cross-validation을 진행하여 1차적 추출 
+
+<img width="999" alt="image" src="https://user-images.githubusercontent.com/100064247/209095685-1435b0ca-06e3-4d8d-ac1d-a7b21171066a.png">
+
+* 추출된 데이터들 중 예측불확실성이 높은 데이터와의 교집합 추출 
+
+<img width="1026" alt="image" src="https://user-images.githubusercontent.com/100064247/209095773-0a69de24-f150-450a-84a2-04326248c39a.png">
+
+* devset과 trainset 합해서 500여개의 재라벨 대상데이터에 대해 라벨링 진행 
+
+<img width="801" alt="image" src="https://user-images.githubusercontent.com/100064247/209095965-73aa4b47-3a53-440e-8bfd-6830eb561a7c.png">
+
+### 연구2: 변경된 데이터의 유효성검증, 모델 성능개선 
+
+* 재라벨 이후 새로운 train/val/test set 제작 
+  - 3.0미만의 낮은 유사도라벨은 word overlap이 높은 데이터들을 우선적으로 포함, 3.0이상의 높은 유사도 라벨은 word overlap이 낮은 데이터를 우선적으로 포함시켜 모델이 word overlap기반으로 문장유사도를 판단하는 경향성을 반영하지 않도록 testset을 구성 
+ 
+<img width="1225" alt="image" src="https://user-images.githubusercontent.com/100064247/209096382-a8f1feb5-f2cb-451b-add5-749bf8fdb826.png">
 
 
