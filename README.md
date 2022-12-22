@@ -61,7 +61,7 @@
 
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
-<모델선정> 
+<모델선정>.   
 *all results are trained with 10random_seed and 3 epochs
 
 
