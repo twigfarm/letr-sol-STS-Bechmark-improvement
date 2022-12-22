@@ -127,7 +127,7 @@
 |original klue-trainset|90.55|81.38|39.45|x|x|x|
 |new trainset|91.14|82.65|41.75|x|x|x|
 |***with data augmentation***||||
-|best-model prediction|||||||
-|label ensemble|||||||
-|best-model prediction|||||||
-|label ensemble|||||||
+|best-model predicted label|91.61|83.57|43.59|+korsts-test|485|1.8-3.2|
+|ensembled label|91.98|83.24|46.44|+korsts-test|485|1.8-3.2|
+|best-model predicted label|91.57|83.24|46.44|+korsts-test<br/>& paraKAIST|851|1.8-3.2|
+|ensembled label|92.05|83.30|49.53|+korsts-test<br/>& paraKAIST|847|1.8-3.2|
