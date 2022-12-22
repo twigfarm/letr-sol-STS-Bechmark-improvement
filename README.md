@@ -67,7 +67,7 @@
 
 |**Model** trained with|**Pearson R**|**F1 score**|**MSE**|
 |------|---|---|---|
-|<span style="color:red"> *Bi-encoder* </span>/ *KLUE-RoBERTa-base*|||
+|*Bi-encoder* / *KLUE-RoBERTa-base*|||
 |original klue-trainset|87.60|80.03|-|
 |new trainset|88.08|80.65|-|
 |*Cross-encoder* / *KLUE-RoBERTa-base*|||
@@ -84,5 +84,7 @@
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][section-mmd-tables-table1]
 
-
+| A | B | C |
+| <r2> 1 | <c2> 2 |
+| 가 | 나 |
 
