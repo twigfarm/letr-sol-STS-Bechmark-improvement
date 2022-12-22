@@ -32,4 +32,12 @@
 
 ### 연구방향1: STS annotation 척도 재정립 및 재라벨링
 
+* 라벨 척도의 재정립 
+
 <img width="1329" alt="스크린샷 2022-12-22 오후 5 46 17" src="https://user-images.githubusercontent.com/100064247/209094695-f93411db-558f-4bfb-bd46-343276df7a5b.png">
+
+* 재라벨 대상 데이터 선정 
+
+<img width="1195" alt="image" src="https://user-images.githubusercontent.com/100064247/209095264-b3efbdbb-ae7f-4e59-aaeb-2ac699de377d.png">
+
+
