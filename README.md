@@ -126,3 +126,8 @@
 |***without data augmentation***||||
 |original klue-trainset|90.55|81.38|39.45|x|x|x|
 |new trainset|91.14|82.65|41.75|x|x|x|
+|***with data augmentation***||||
+|best-model prediction|||||||
+|label ensemble|||||||
+|best-model prediction|||||||
+|label ensemble|||||||
