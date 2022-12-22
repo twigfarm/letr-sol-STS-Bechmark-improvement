@@ -13,11 +13,13 @@
 - 주관적 판단이 개입되는 점수 척도
 - 2.0-3.5구간의 라벨오류로 인한 낮은 모델 성능 
 <br/>
+
 ### 연구목표
 
 - 기존 STS dataset의 모호한 점수척도 재정립 및 재라벨링 
 - 변경된 데이터의 유효성 검증 및 모델 성능 개선 
 <br/>
+
 ### 기존 benchmark의 문제점
 
 #### 1. KorSTS
@@ -32,6 +34,7 @@
 - 주관적 판단이 개입되는 점수 척도
 - binary판단에 대한 Fasle비율이 높은 2.0-3.5구간 
 <br/>
+
 ### 연구1: STS annotation 척도 재정립 및 재라벨링
 
 * 라벨 척도의 재정립 
@@ -54,6 +57,7 @@
 
 <img width="801" alt="image" src="https://user-images.githubusercontent.com/100064247/209095965-73aa4b47-3a53-440e-8bfd-6830eb561a7c.png">
 <br/>
+
 ### 연구2: 변경된 데이터의 유효성검증, 모델 성능개선 
 
 * 재라벨 이후 새로운 train/val/test set 제작 
@@ -61,6 +65,7 @@
  
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/100064247/209096382-a8f1feb5-f2cb-451b-add5-749bf8fdb826.png">
 <br/>
+
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 #### <모델선정>   
@@ -96,11 +101,13 @@
 |new trainset|**91.14**|82.98|**0.37**|
 
 <br/>
+
 #### 변경된 데이터의 유효성 검증 - 유효성검증 실험설계 
 
 <img width="1191" alt="image" src="https://user-images.githubusercontent.com/100064247/209103925-5fbecb1f-1980-4fb9-bf6e-8d5d81cfbd0c.png">
 
 <br/>
+
 ### 유효성검증 실험결과 
 
 |**Model** trained with|**Pearson R**|**F1 score**|**MSE**|**2.0-3.5<br/>Pearson R**|**2.0-3.5<br/>ACC**|
@@ -113,6 +120,7 @@
 > 전체구간 성능상승 / 재라벨링 타겟구간이었던 2.0-3.5구간의 피어슨계수, acc 더 큰폭으로 상승 
 
 <br/>
+
 #### 모델 성능개선 - semi-supervised learning 
 
 <img width="1245" alt="image" src="https://user-images.githubusercontent.com/100064247/209106383-5998ba70-a001-4b3f-b3bc-2b9439070ce9.png">
@@ -127,6 +135,7 @@
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/100064247/209107009-acc1b33d-ed9f-4993-a24b-72fb3b7d404c.png">
 
 <br/>
+
 ### 모델 성능개선 실험결과 
 |**Model** trained with|**Pearson R**|**F1 score**|**1.8-3.2 <br/>Pearson R**|**Data<br/>Augmentation**|**Num of<br/> Augmented data**|**Aug range**|
 |---------|---|---|---|----|---|---|
@@ -141,6 +150,7 @@
 > 한가지 데이터에 대해서만 증강 / 수를 늘려 두가지 모두에 대해 증강한 경우 <br/> 두가지 모두 증강전보다 성능향상 <br/> 앙상블을 통해 불확실성이 높은 라벨을 제거한후 데이터증강을 적용한 경우가 더 높은 성능 
 
 <br/>
+
 ### 연구 의의 및 한계점 
 
 #### 의의 
