@@ -29,27 +29,27 @@
 
 ### 연구1: STS annotation 척도 재정립 및 재라벨링
 
-* 라벨 척도의 재정립 
+#### 라벨 척도의 재정립 
 
 <img width="1329" alt="스크린샷 2022-12-22 오후 5 46 17" src="https://user-images.githubusercontent.com/100064247/209094695-f93411db-558f-4bfb-bd46-343276df7a5b.png">
 <br/>
 
-* 재라벨 대상 데이터 선정 
+#### 재라벨 대상 데이터 선정 
 
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/100064247/209095264-b3efbdbb-ae7f-4e59-aaeb-2ac699de377d.png">
 <br/>
 
-* trainset전체에 대해 cross-validation을 진행하여 1차적 추출 
+#### trainset전체에 대해 cross-validation을 진행하여 1차적 추출 
 
 <img width="999" alt="image" src="https://user-images.githubusercontent.com/100064247/209095685-1435b0ca-06e3-4d8d-ac1d-a7b21171066a.png">
 <br/>
 
-* 추출된 데이터들 중 예측불확실성이 높은 데이터와의 교집합 추출 
+#### 추출된 데이터들 중 예측불확실성이 높은 데이터와의 교집합 추출 
 
 <img width="1026" alt="image" src="https://user-images.githubusercontent.com/100064247/209095773-0a69de24-f150-450a-84a2-04326248c39a.png">
 <br/>
 
-* devset과 trainset 합해서 500여개의 재라벨 대상데이터에 대해 라벨링 진행 
+#### devset과 trainset 합해서 500여개의 재라벨 대상데이터에 대해 라벨링 진행 
 
 <img width="801" alt="image" src="https://user-images.githubusercontent.com/100064247/209095965-73aa4b47-3a53-440e-8bfd-6830eb561a7c.png">
 <br/>
