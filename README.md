@@ -164,7 +164,7 @@
 
 
 ### reference
-
+- Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks(2019)
 - Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks(2020)
 - KLUE: Korean Language Understanding Evaluation(2021)
 - KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding(2020)
