@@ -101,6 +101,7 @@ model_evaluation(model_save_path ,
 ### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 #### F1-score의 측정 
+- 3.0label기준으로 TRUE/FALSE
 
 ```python
 def confusion_matrix(test):
