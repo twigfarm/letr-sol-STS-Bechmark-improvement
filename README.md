@@ -9,9 +9,9 @@
 ### Requirements
 
 
-- transformers==4.7.0
-- datasets==1.8.0
-- sentence-transformers==1.2.0
+- 'transformers==4.7.0'
+- 'datasets==1.8.0'
+- 'sentence-transformers==1.2.0'
 
 
 ### 연구과제 
