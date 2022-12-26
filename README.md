@@ -76,7 +76,7 @@
 
 
 
-## Evaluate model-performance with new_devset
+### Evaluate model-performance with new_devset
 
 
 ```python
@@ -97,7 +97,7 @@ model_evaluation(model_save_path ,
 ```
 <br/>
 
-## 변경된 데이터의 유효성 검증 - 모델성능 비교실험
+### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 #### F1-score의 측정 
 
