@@ -206,12 +206,12 @@ def confusion_matrix(test):
 ```
 ```python
 # 학습완료된 model 불러오기 (cross-encoder)
-model_save_path = ~cross
+model_save_path = ' '
 model_evaluation(model_save_path ,
                  encoding ='cross-encoding')
 
 # bi-encoder
-model_save_path = ~bi
+model_save_path = ' '
 model_evaluation(model_save_path ,
                  encoding ='bi-encoding')
 ```
