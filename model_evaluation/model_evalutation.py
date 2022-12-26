@@ -6,7 +6,8 @@ from sentence_transformers.cross_encoder import CrossEncoder
 from tqdm.auto import tqdm
 
 
-
+cross_encoding = cross_encoding
+bi_encoding = bi_encoding
 
 def model_evaluation(model_save_path, encoding):
     
