@@ -9,12 +9,11 @@
 ### Requirements
 
 
-- 'transformers==4.7.0'
-- 'datasets==1.8.0'
-- 'sentence-transformers==1.2.0'
+- `transformers==4.7.0`
+- `datasets==1.8.0`
+- `sentence-transformers==1.2.0`
 
-- `pytorch ~= 1.6.0`
-- `transformers ~= 3.5.1`
+
 
 ### 연구과제 
 
