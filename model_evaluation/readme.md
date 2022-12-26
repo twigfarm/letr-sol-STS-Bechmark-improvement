@@ -21,3 +21,5 @@ model_save_path = ' '
 model_evaluation(model_save_path ,
                  encoding ='bi-encoding')
 ```
+<br/>
+<img width="674" alt="image" src="https://user-images.githubusercontent.com/100064247/209533964-e17a150f-556a-461c-ab3d-e6191b66240c.png">
