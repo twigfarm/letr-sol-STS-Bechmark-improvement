@@ -10,10 +10,10 @@
 ## Requirements
 
 
-- `torch==1.8.1`
-- `transformers==4.25.1`
-- `sentence-transformers==2.2.2`
-- `datasets==2.7.1`
+- `torch ~=1.8.1`
+- `transformers ~=4.25.1`
+- `sentence-transformers ~=2.2.2`
+- `datasets ~=2.7.1`
 
 
 <br/>
