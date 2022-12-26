@@ -6,6 +6,14 @@
 > 기존 STS benchmark의 문제점을 개선하고 개선된 데이터셋을 바탕으로 모델 성능향상 방안 모색 
 
 
+### Requirements
+
+
+- transformers==4.7.0
+- datasets==1.8.0
+- sentence-transformers==1.2.0
+
+
 ### 연구과제 
 
 - 기존 STS dataset의 모호한 점수척도 재정립 및 재라벨링 
