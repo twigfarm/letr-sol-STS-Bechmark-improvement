@@ -7,7 +7,7 @@
 
 <br/>
 
-### Requirements
+## Requirements
 
 
 - `torch==1.8.1`
@@ -18,13 +18,13 @@
 
 <br/>
 
-### 연구과제 
+## 연구과제 
 
 - 기존 STS dataset의 모호한 점수척도 재정립 및 재라벨링 
 - 변경된 데이터의 유효성 검증 및 모델 성능 개선 
 <br/>
 
-### 기존 benchmark의 문제점
+## 기존 benchmark의 문제점
 
 #### 1. KorSTS
 
@@ -39,7 +39,7 @@
 - binary판단에 대한 Fasle비율이 높은 2.0-3.5구간 
 <br/>
 
-### 연구1: STS annotation 척도 재정립 및 재라벨링
+## 연구1: STS annotation 척도 재정립 및 재라벨링
 
 #### 라벨 척도의 재정립 
 
@@ -66,7 +66,7 @@
 <img width="801" alt="image" src="https://user-images.githubusercontent.com/100064247/209095965-73aa4b47-3a53-440e-8bfd-6830eb561a7c.png">
 <br/>
 
-### 연구2: 변경된 데이터의 유효성검증, 모델 성능개선 
+## 연구2: 변경된 데이터의 유효성검증, 모델 성능개선 
 
 * 재라벨 이후 새로운 train/val/test set 제작 
   - 3.0미만의 낮은 유사도라벨은 word overlap이 높은 데이터들을 우선적으로 포함, 3.0이상의 높은 유사도 라벨은 word overlap이 낮은 데이터를 우선적으로 포함시켜 모델이 word overlap기반으로 문장유사도를 판단하는 경향성을 반영하지 않도록 testset을 구성 
@@ -97,7 +97,7 @@ model_evaluation(model_save_path ,
 ```
 <br/>
 
-#### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
+## 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 #### F1-score의 측정 
 
@@ -155,7 +155,7 @@ def confusion_matrix(test):
 
 <br/>
 
-#### 변경된 데이터의 유효성 검증 - 유효성검증 실험설계 
+## 변경된 데이터의 유효성 검증 - 유효성검증 실험설계 
 
 <img width="1191" alt="image" src="https://user-images.githubusercontent.com/100064247/209103925-5fbecb1f-1980-4fb9-bf6e-8d5d81cfbd0c.png">
 
@@ -204,7 +204,7 @@ def confusion_matrix(test):
 
 <br/>
 
-### 연구 의의 및 한계점 
+## 연구 의의 및 한계점 
 
 #### 의의 
 -  라벨링 난이도가 높은 점수구간의 명확한 라벨링 기준 정립
