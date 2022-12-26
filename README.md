@@ -5,7 +5,7 @@
 ## 한국어 문장유사도 벤치마크 개선 & 모델 성능 향상 
 > 기존 STS benchmark의 문제점을 개선하고 개선된 데이터셋을 바탕으로 모델 성능향상 방안 모색 
 
-
+<br/>
 ### Requirements
 
 
@@ -80,7 +80,7 @@
 
 ```python
 ! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
-%cd /home/sol3sts/SolProject3-STS-Bechmark-improvement/model_evaluation/
+%cd /SolProject3-STS-Bechmark-improvement/model_evaluation/
 %run model_evalutation.py
 ```
 ```python
