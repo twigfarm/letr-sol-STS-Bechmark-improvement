@@ -1,4 +1,4 @@
-# [SolProject 3기] STS-Bechmark Improvement
+# [SolProject 3기] STS 문장유사도평가
 2022.10 ~ 2022.12 트위그팜에서 진행한 SolProject3기 인턴쉽 유사문장평가 벤치마크 연구과제 
 <br/>
 <br/>
