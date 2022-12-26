@@ -9,9 +9,10 @@
 ### Requirements
 
 
-- `transformers==4.7.0`
-- `datasets==1.8.0`
-- `sentence-transformers==1.2.0`
+- `torch==1.8.1`
+- `transformers==4.25.1`
+- `sentence-transformers==2.2.2`
+
 
 
 
