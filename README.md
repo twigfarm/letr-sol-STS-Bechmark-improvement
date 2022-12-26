@@ -73,6 +73,29 @@
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/100064247/209096382-a8f1feb5-f2cb-451b-add5-749bf8fdb826.png">
 <br/>
 
+
+
+## Test model performance with new_devset
+
+
+```python
+! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
+%cd /home/sol3sts/SolProject3-STS-Bechmark-improvement/model_evaluation/
+%run model_evalutation.py
+```
+```python
+# 학습완료된 model 불러오기 (cross-encoder)
+model_save_path = ' '
+model_evaluation(model_save_path ,
+                 encoding ='cross-encoding')
+
+# bi-encoder
+model_save_path = ' '
+model_evaluation(model_save_path ,
+                 encoding ='bi-encoding')
+```
+<br/>
+
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
 #### F1-score의 측정 
@@ -195,27 +218,7 @@ def confusion_matrix(test):
 - 해결하지 못한 워드 오버랩기반 예측경향 
 - 여전히 불균형한 훈련데이터 
 
-<br/>
 
-## How to Use model_evaluation.py
-
-
-```python
-! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
-%cd /home/sol3sts/SolProject3-STS-Bechmark-improvement/model_evaluation/
-%run model_evalutation.py
-```
-```python
-# 학습완료된 model 불러오기 (cross-encoder)
-model_save_path = ' '
-model_evaluation(model_save_path ,
-                 encoding ='cross-encoding')
-
-# bi-encoder
-model_save_path = ' '
-model_evaluation(model_save_path ,
-                 encoding ='bi-encoding')
-```
 
 <br/>
 
