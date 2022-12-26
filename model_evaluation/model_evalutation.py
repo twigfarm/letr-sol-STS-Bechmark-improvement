@@ -8,23 +8,43 @@ from tqdm.auto import tqdm
 
 
 
-def model_evaluation(model_save_path):
-    
-    cross_encoder = CrossEncoder(model_save_path)
+def model_evaluation(model_save_path, encoding):
     
     test_data_path = 'https://raw.githubusercontent.com/tommyEzreal/SolProject3-STS-Bechmark-improvement/main/data/new_devset.csv'
     test = pd.read_csv(test_data_path)
     test = test.rename(columns={'new_label':'labels.label'})
     test = test[['sentence1','sentence2','labels.label']]
     
-    # crossencoder의 predict함수 이용하여 새로운 데이터에 대한 prediction 
-    pairs_all = list(zip(test['sentence1'], test['sentence2']))
-    scores_all = cross_encoder.predict(pairs_all,
-                               show_progress_bar = True)
-
-    # 모델 예측값을 silver_label 형태로 달아주기 
-    # 소수점 첫째자리 반올림한 라벨로 기입  
-    test['silver_label'] = np.round((scores_all * 5).tolist(), 1)
+    if encoding == cross_encoding:
+        cross_encoder = CrossEncoder(model_save_path)
+    
+        # crossencoder의 predict함수 이용하여 새로운 데이터에 대한 prediction 
+        pairs_all = list(zip(test['sentence1'], test['sentence2']))
+        scores_all = cross_encoder.predict(pairs_all,
+                                   show_progress_bar = True)
+ 
+        # 모델 예측값을 silver_label 형태로 달아주기 
+        # 소수점 첫째자리 반올림한 라벨로 기입  
+        test['silver_label'] = np.round((scores_all * 5).tolist(), 1)
+        
+    elif encoding == bi_encoding:
+        bi_encoder = SentenceTransformer(model_save_path)
+        
+        pairs_one = list(test['sentence1'])
+        pairs_two = list(test['sentence2'])
+        
+        # SentneceTransformer의 encode 이용해서 새로운 데이터에 대한 prediction
+        embedding_one = bi_encoder.encode(pairs_one,show_progress_bar = True)                                  
+        embedding_two = bi_encoder.encode(pairs_two,show_progress_bar = True)
+        
+        cosine_scores = util.cos_sim(embedding_one, embedding_two)
+        silver_label = []
+        for i in range(len(pairs_one)):
+            silver_label.append((cosine_scores[i][i]*5).tolist())
+            
+        # 모델 예측값을 silver_label 형태로 달아주기 
+        # 소수점 첫째자리 반올림한 라벨로 기입 
+        test['silver_label'] = np.round((silver_label), 1)
     
     
     # confusion matrix 만들기 위해 3.0을 기준으로 정답여부를 trueN/F - falseN/F 구분하여 데이터 나눠주기 
