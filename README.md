@@ -77,7 +77,7 @@
 
 #### F1-score의 측정 
 
-```
+```python
 def confusion_matrix(test):
 
   TP = len(test[test['correctness'] == 'True_P'])
