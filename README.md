@@ -75,7 +75,7 @@
 
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
-### F1-score의 측정 
+#### F1-score의 측정 
 
 ```
 def confusion_matrix(test):
