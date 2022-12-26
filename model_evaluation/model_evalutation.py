@@ -150,7 +150,7 @@ def model_evaluation(model_save_path,test_data_path):
         return("accuracy:",(TP+TN)/(TP+TN+FP+FN),"precision:", TP/(TP+FP), "recall:", TP/(TP+FN),"f1 score:", 2*pc*rc/(pc+rc))
     
     print("[model_save_path]:",model_save_path)
-    print("[test_data_path]:",csv_file_path)
+    print("[test_data_path]:",test_data_path)
     print()
     print()
     print("[Whole Test Evaluation]")
