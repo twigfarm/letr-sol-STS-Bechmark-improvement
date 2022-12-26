@@ -6,8 +6,6 @@ from sentence_transformers.cross_encoder import CrossEncoder
 from tqdm.auto import tqdm
 
 
-cross_encoding = cross_encoding
-bi_encoding = bi_encoding
 
 def model_evaluation(model_save_path, encoding):
     
@@ -17,7 +15,7 @@ def model_evaluation(model_save_path, encoding):
     test = test.rename(columns={'new_label':'labels.label'})
     test = test[['sentence1','sentence2','labels.label']]
     
-    if encoding == cross_encoding:
+    if encoding == 'cross-encoding':
         cross_encoder = CrossEncoder(model_save_path)
     
         # crossencoder의 predict함수 이용하여 새로운 데이터에 대한 prediction 
@@ -29,7 +27,7 @@ def model_evaluation(model_save_path, encoding):
         # 소수점 첫째자리 반올림한 라벨로 기입  
         test['silver_label'] = np.round((scores_all * 5).tolist(), 1)
         
-    elif encoding == bi_encoding:
+    elif encoding == 'bi-encoding':
         bi_encoder = SentenceTransformer(model_save_path)
         
         pairs_one = list(test['sentence1'])
