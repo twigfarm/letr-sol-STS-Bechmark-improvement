@@ -75,6 +75,28 @@
 
 #### 변경된 데이터의 유효성 검증 - 모델성능 비교실험
 
+### F1-score의 측정 
+
+```
+def confusion_matrix(test):
+
+  TP = len(test[test['correctness'] == 'True_P'])
+  TN = len(test[test['correctness'] == 'True_N'])
+  FP = len(test[test['correctness'] == 'False_P'])
+  FN = len(test[test['correctness'] == 'False_N'])
+  print("TP:",TP,"TN:",TN,"FP:",FP,"FN",FN)
+
+  
+  if (TP + FP) & (TP+FN) ==0:
+    return("accuracy:",(TP+TN)/(TP+TN+FP+FN))
+  
+  else:
+    pc=TP/(TP+FP)
+    rc=TP/(TP+FN)
+    
+    return("accuracy:",(TP+TN)/(TP+TN+FP+FN),"precision:", TP/(TP+FP), "recall:", TP/(TP+FN),"f1 score:", 2*pc*rc/(pc+rc))
+```
+
 #### <모델선정>   
 *all results are trained with 10random_seed and 3 epochs
 
