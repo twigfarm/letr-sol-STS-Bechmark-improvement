@@ -12,6 +12,7 @@ def model_evaluation(model_save_path,test_data_path):
     
     cross_encoder = CrossEncoder(model_save_path)
     test = pd.read_csv(test_data_path)
+    test = test.rename(columns={'new_label':'labels.label'})
     test = test[['sentence1','sentence2','labels.label']]
     
     # crossencoder의 predict함수 이용하여 새로운 데이터에 대한 prediction 
