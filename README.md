@@ -10,7 +10,7 @@
 
 ## Team 
 👨🏻‍💻 SeoKwangWook(researcher)    
-👩🏻‍💻 HwangEunHye(researcher)    
+👩🏻‍💻 HwangEunHae(researcher)    
 <br/>
 🧑🏻‍🏫 ChoiJinHyuk(mentor)    
 
