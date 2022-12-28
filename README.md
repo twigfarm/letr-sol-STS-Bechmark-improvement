@@ -8,6 +8,14 @@
 
 <br/>
 
+## Team 
+- SeoKwangWook (researcher)
+- HwangEunHye (researcher)
+- ChoiJinHyuk (mentor)
+
+
+<br/>
+
 ## Requirements
 
 
