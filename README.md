@@ -9,10 +9,10 @@
 <br/>
 
 ## Team 
-👨🏻‍💻 SeoKwangWook(researcher)    
-👩🏻‍💻 HwangEunHae(researcher)    
+👨🏻‍💻 **SeoKwangWook**(researcher)    
+👩🏻‍💻 **HwangEunHae**(researcher)    
 <br/>
-🧑🏻‍🏫 ChoiJinHyuk(mentor)    
+🧑🏻‍🏫 ChoiJinHyuk (mentor)    
 
 
 <br/>
