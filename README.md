@@ -200,7 +200,7 @@ def confusion_matrix(test):
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/100064247/209107009-acc1b33d-ed9f-4993-a24b-72fb3b7d404c.png">
 
 ## Label Selection (remove_uncertain_pseudo_label)
-> how to sue
+> how to use
 ```python
 ! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
 %cd ~ /SolProject3-STS-Bechmark-improvement/label_selection/
