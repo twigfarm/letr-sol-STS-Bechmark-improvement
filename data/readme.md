@@ -8,5 +8,5 @@
   - **new_label devset** = new_devset.csv
   
 - [augmentation data]
- - **korsts_test "1.8-3.2" silver_labeled** = aug_korsts.csv
- - **para_KAIST "1.8-3.2" silver_labeled** = aug_paraKAIST.csv
+  - **korsts_test "1.8-3.2" silver_labeled** = aug_korsts.csv
+  - **para_KAIST "1.8-3.2" silver_labeled** = aug_paraKAIST.csv
