@@ -78,7 +78,7 @@
 
 ## 연구2: 변경된 데이터의 유효성검증, 모델 성능개선 
 
-* 재라벨 이후 새로운 train/val/test set 제작 
+> 재라벨 이후 새로운 train/val/test set 제작 
   - 3.0미만의 낮은 유사도라벨은 word overlap이 높은 데이터들을 우선적으로 포함, 3.0이상의 높은 유사도 라벨은 word overlap이 낮은 데이터를 우선적으로 포함시켜 모델이 word overlap기반으로 문장유사도를 판단하는 경향성을 반영하지 않도록 testset을 구성 
  
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/100064247/209096382-a8f1feb5-f2cb-451b-add5-749bf8fdb826.png">
