@@ -16,3 +16,6 @@ model_list = [ *model_save_path_1*, *model_save_path_2* , *model_save_path_3* , 
 remove_uncertain_label(model_list,sentence_pairs)
 
 ```
+
+## output example
+<img width="822" alt="image" src="https://user-images.githubusercontent.com/100064247/210054230-a05ad6d3-5bfb-40f1-9035-9453bf0ddc14.png">
