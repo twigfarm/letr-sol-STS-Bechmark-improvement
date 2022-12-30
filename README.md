@@ -208,7 +208,7 @@ def confusion_matrix(test):
 ```
 
 ```python
-sentence_pairs = [ * unlabeled sentence pairs * ]
+sentence_pairs = [ #unlabeled sentence pairs ]
 model_list = [ * model_save_path_1 *, * model_save_path_2 * , * model_save_path_3 * , ... ] # trained model
 
 remove_uncertain_label(model_list,sentence_pairs)
