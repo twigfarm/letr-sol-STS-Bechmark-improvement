@@ -4,7 +4,7 @@
   - **KLUE-STS trainset & devset** = KLUE_STS_train (2).csv / KLUE_STS_val (2).csv
 - [new label dataset]
   - **new_label klue_trainset** = 1209_train_dev&val제거.csv
-  - **new_label validationset** = 1209_val.csv
+  - **new_label validation set** = 1209_val.csv
   - **new_label devset** = new_devset.csv
   
 - [augmentation data]
