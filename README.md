@@ -34,7 +34,7 @@
 - 변경된 데이터의 유효성 검증 및 모델 성능 개선 
 <br/>
 
-## 기존 benchmark의 문제점
+## 기존 한국어 STS benchmark의 문제점
 
 #### 1. KorSTS
 
