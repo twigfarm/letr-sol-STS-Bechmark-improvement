@@ -29,7 +29,7 @@ logging.basicConfig(
     handlers=[LoggingHandler()],
 )
 
-logging.info('This is an info message')
+logging.info('Run remove_uncertain_label.py')
 
 
 
