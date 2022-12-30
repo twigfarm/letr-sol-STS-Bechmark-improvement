@@ -199,6 +199,24 @@ def confusion_matrix(test):
 #### 모델 성능개선 - pseudo-label selection
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/100064247/209107009-acc1b33d-ed9f-4993-a24b-72fb3b7d404c.png">
 
+## Label Selection (remove_uncertain_pseudo_label)
+> how to sue
+```python
+! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
+%cd ~ /SolProject3-STS-Bechmark-improvement/label_selection/
+%run remove_uncertain_label.py
+```
+
+```python
+sentence_pairs = [ *unlabeled sentence pairs* ]
+model_list = [ *model_save_path_1*, *model_save_path_2* , *model_save_path_3* , ... ] # trained model
+
+remove_uncertain_label(model_list,sentence_pairs)
+
+```
+
+
+
 <br/>
 
 ### 모델 성능개선 실험결과 
