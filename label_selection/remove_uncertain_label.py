@@ -1,4 +1,4 @@
-```python
+
 
 import numpy as np
 import pandas as pd
@@ -80,4 +80,4 @@ def remove_uncertain_label (model_list,sentence_pairs):
 
 
 
-```
+
