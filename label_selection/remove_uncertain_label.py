@@ -29,7 +29,7 @@ logging.basicConfig(
     handlers=[LoggingHandler()],
 )
 
-logging.info('Run remove_uncertain_label.py')
+logging.info("Run remove_uncertain_label.py")
 
 
 
