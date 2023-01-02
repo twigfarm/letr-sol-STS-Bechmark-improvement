@@ -4,8 +4,8 @@
 - 사용방법
 
 ```python
-! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
-%cd ~ /SolProject3-STS-Bechmark-improvement/label_selection/
+! git clone https://github.com/twigfarm/letr-sol-STS-Bechmark-improvement
+%cd /letr-sol-STS-Bechmark-improvement/label_selection/
 %run remove_uncertain_label.py
 ```
 
