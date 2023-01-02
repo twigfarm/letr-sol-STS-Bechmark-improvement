@@ -5,8 +5,8 @@
 - 피어슨 상관계수, 스피어만 상관계수를 비롯해 confusion_matrix, f1score, mse, 구간별 correlation, acc를 한번에 확인할 수 있습니다. 
 - 사용방법
 ```python
-! git clone https://github.com/tommyEzreal/SolProject3-STS-Bechmark-improvement
-%cd /SolProject3-STS-Bechmark-improvement/model_evaluation/
+! git clone https://github.com/twigfarm/letr-sol-STS-Bechmark-improvement
+%cd /letr-sol-STS-Bechmark-improvement/model_evaluation/
 %run model_evalutation.py
 ```
 
