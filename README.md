@@ -9,8 +9,8 @@
 <br/>
 
 ## Team 
-👨🏻‍💻 **Seo Kwang Wook**(researcher)    
-👩🏻‍💻 **Hwang Eun Hae**(researcher)    
+👨🏻‍💻 **Seo Kwang Wook**(researcher) [ https://github.com/tommyEzreal ]    
+👩🏻‍💻 **Hwang Eun Hae**(researcher) [ https://github.com/ocellow ] 
 <br/>
 🧑🏻‍🏫 Choi Jin Hyuk (mentor)    
 
